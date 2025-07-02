@@ -1,7 +1,11 @@
+import Hero from './components/Hero'
+
 const App = () => {
   return ( 
-    <div>Light Dark Mode Application</div>
-   )
+    <div>
+      <Hero />
+    </div>
+  )
 }
  
 export default App

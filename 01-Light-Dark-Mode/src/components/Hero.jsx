@@ -1,7 +1,7 @@
-const Heo = () => {
+const Hero = () => {
   return ( 
     <div>Hero</div>
-   );
+   )
 }
  
-export default Heo;
+export default Hero
