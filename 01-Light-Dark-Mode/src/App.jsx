@@ -5,6 +5,13 @@ import { TbMoon, TbSun} from 'react-icons/tb'
 const App = () => {
   const [darkMode, setDarkMode] = useState(false)
 
+  useEffect (() => {
+    if (darkMode) {
+      document.documentElement.classList.add('dark')
+    }
+    }, [] 
+  )
+
   const toggleDarkMode = () => {
     setDarkMode(!darkMode)
   }
