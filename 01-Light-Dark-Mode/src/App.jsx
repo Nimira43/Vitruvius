@@ -1,9 +1,13 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Hero from './components/Hero'
 import { TbMoon, TbSun} from 'react-icons/tb'
 
 const App = () => {
   const [darkMode, setDarkMode] = useState(false)
+
+  const toggleDarkMode = () => {
+    setDarkMode(!darkMode)
+  }
 
   return ( 
     <div className='min-h-screen bg-light relative'>
