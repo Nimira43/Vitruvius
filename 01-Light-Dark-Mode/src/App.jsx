@@ -2,7 +2,7 @@ import Hero from './components/Hero'
 
 const App = () => {
   return ( 
-    <div>
+    <div className='min-h-screen bg'>
       <Hero />
     </div>
   )

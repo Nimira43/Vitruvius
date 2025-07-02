@@ -6,3 +6,58 @@
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
 }
+
+.text-main {
+  color: #ff4500;
+}
+.bg-main {
+  background-color: #ff4500;
+}
+.text-support {
+  color: #008080;
+}
+.bg-support {
+  background-color: #008080;
+}
+.text-dark {
+  color: #111;
+}
+.bg-dark {
+  background-color: #111;
+}
+.text-light {
+  color: #fffcfa;
+}
+.bg-light {
+  background-color: #fffcfa;
+}
+.text-grey-dark {
+  color: #333;
+}
+.bg-grey-dark {
+  background-color: #333;
+}
+.text-grey-medium {
+  color: #999;
+}
+.bg-grey-medium {
+  background-color: #999;
+}
+.text-grey-light {
+  color: #ccc;
+}
+.bg-grey-light {
+  background-color: #ccc;
+}
+.text-grey-light-extra {
+  color: #eee;
+}
+.bg-grey-light-extra {
+  background-color: #eee;
+}
+.text-gold {
+  color: #ffd700;
+}
+.bg-gold {
+  background-color: #ffd700;
+}
