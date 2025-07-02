@@ -1,7 +1,10 @@
+import { useState } from 'react'
 import Hero from './components/Hero'
 import { TbMoon, TbSun} from 'react-icons/tb'
 
 const App = () => {
+  const [darkMode, setDarkMode] = useState(false)
+
   return ( 
     <div className='min-h-screen bg-light relative'>
       <button 
