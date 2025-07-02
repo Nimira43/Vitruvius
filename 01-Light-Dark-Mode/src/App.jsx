@@ -1,6 +1,6 @@
 const App = () => {
   return ( 
-    <div>Template</div>
+    <div>Light Dark Mode Application</div>
    )
 }
  
